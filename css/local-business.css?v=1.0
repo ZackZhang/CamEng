@@ -1,0 +1,2394 @@
+﻿
+
+
+/* Emergency styles 14/03/2012 */
+
+ul ul {list-style: disc outside;}
+ul { list-style: disc outside; }
+ul > ul { list-style-type: circle; }
+ul > ul > ul { list-style-type: square; }
+
+.esol-newsPanel .landingPage .article-list-2 > ul {
+                border-top: 1px dotted #333333;
+                margin: 0 0 1.231em;
+}
+
+.esol-newsPanel .landingPage .article-list-2 > ul > li {
+                position: relative;
+                min-height: 8.002em;
+                padding: 1.231em 0 0 8.617em;
+                border-bottom: 1px dotted #333333;
+                list-style: none outside;
+}
+
+.esol-newsPanel .landingPage .article-list-2 > ul > li .summary {
+                position: static;
+}
+
+.esol-newsPanel .landingPage .article-list-2 > ul > li .circle {
+                position: absolute;
+                left: 0;
+                padding: 0.616em;
+                border: solid 2px #999;
+                font-weight: bold;
+                background-color: #fff;
+}
+
+.esol-newsPanel .landingPage .article-list-2 > ul > li .circle .first {
+                margin-top: 1.231em;
+                font-size: 1em;
+}
+
+.esol-newsPanel .landingPage .article-list-2 > ul > li .circle .second {
+                font-size: 2em;
+                line-height: .616em;
+}
+
+.esol-newsPanel .landingPage .news-article h3 + img { width: 50%; }
+
+#footer .body p.text-center {
+    margin-bottom: 0.616em;
+}
+
+.esol-iWantToPanel .main .body .i-want-to-list li img {
+    width: 100%;
+}
+
+.esol-iWantToPanel .main .body .i-want-to-list li {
+    padding: 0.616em 0 0.616em 1.231em;
+}
+
+
+/******* ENDS Emergency styles********/
+
+
+/****new Language and Methodology for Teachers courses***/
+
+.btn-gold {
+display: inline-block;
+padding: 10px 18px 10px 18px;
+-ms-border-radius: 6px;
+-webkit-border-radius: 6px;
+-moz-border-radius: 6px;
+border-radius: 6px;
+-moz-background-clip: padding;
+-webkit-background-clip: padding-box;
+background-clip: padding-box;
+color: #fff !important;
+font-weight: bold;
+text-decoration: none;
+background-color: #938048;
+background-image: none !important;
+}
+
+.btn-gold:hover {
+	background-color: #746539;
+}
+
+
+/*** YLE****/
+
+body.young-learners {
+
+            background: #669ecd url("../images/esol/bgTest4.png") no-repeat fixed 0 0;
+
+}
+
+
+body.yle-starters {
+            background: #fbb430 url("../images/esol/yle-bkg-yellow.png") no-repeat fixed 0 0;
+}
+
+body.yle-movers {
+            background: #8d4292 url("../images/esol/yle-bkg-purple.png") no-repeat fixed 0 0;
+}
+
+body.yle-flyers {
+            background: #b4d570 url("../images/esol/yle-bkg-green.png") no-repeat fixed 0 0;
+}
+
+/***for YLE fix to promo images****/
+
+.cp45Content1 div a {
+	display: inline;
+}
+
+.cp45Content1 div a img {
+	height: auto !important;
+}
+
+/***UK****/
+
+.landing-page.bright-future-page form li.focused {
+	background-color: #42AEFF;
+}
+
+.landing-page.bright-future-page form li.error {
+	background-color: #FE98BE;
+}
+
+.landing-page.bright-future-page form #errorLi {
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.landingPageUK {
+width: 75.385em;
+}
+
+.landingPageUK .yui3-u-1-3 {
+	width: 28%;
+}
+
+.landingPageUK .yui3-u-2-3 {
+	width: 72%;
+}
+
+.landingPageUK .box iframe {
+width: 694px;
+}
+
+.landingPageUK h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.75em;
+	font-weight: normal;
+	color: #801431;
+}
+
+.landingPageUK h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	color: #333;
+	background-color: #fff;
+	border: none;
+	font-weight: normal;
+	padding: 0.308em 0.308em 0.308em 0;
+	margin-bottom: 0.5em;
+}
+
+/*** NAGAP/NAFSA STYLING 02/03/2015 ****/
+
+.landing-page.nagap #col-2 .cae-blue,
+.landing-page.nafsa #col-2 .cae-blue{
+	color: #008abe;
+}
+
+.landing-page.nagap #col-2 li
+.landing-page.nafsa #col-2 li {
+	padding-bottom: 7px;
+}
+
+/*** FULL WIDTH PAGES ****/
+
+.full-width .button-banner { 
+	background-color: #EDEDED;
+	padding: 15px;
+	margin-bottom: 30px;
+}	
+
+.full-width .button-banner.blue { 
+	background-color: #4f87c6; /* #002B4A */
+	color: white;
+}		
+	
+
+.full-width .button-banner p { 
+	margin-bottom: 0;
+}
+
+.landing-page .button-banner .right-button a,
+.full-width .button-banner .right-button a { 
+	display: block !important;
+	float: right !important;
+	margin-right: 8px;
+	padding: 5px;
+	background-color: #4f87c6; /* #0073C5 */
+	
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	
+}
+
+.teaching-challenges .right-button a { 
+	display: block !important;
+	float: right !important;
+	margin-right: 8px;
+	padding: 4px 10px 6px;
+	border-radius: 5px;
+	border: 1px solid #fff;
+	background-color: #4f87c6; /* #0073C5 */
+	
+	-webkit-box-shadow: 0 0 5px #4f87c6, inset 0 0 15px #33669F;
+	-moz-box-shadow: 0 0 5px #4f87c6, inset 0 0 15px #33669F;
+	box-shadow: 0 0 5px #4f87c6, inset 0 0 15px #33669F;
+	
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	
+	-webkit-transition: background .5s ease;
+	-moz-transition: background .5s ease;
+	transition: background .5s ease;
+}
+
+.full-width .button-banner .right-button a:hover,
+.teaching-challenges .right-button a:hover { 
+	background-color: #8cc63e;
+	box-shadow: 0 0 8px #8cc63e, inset 0 0 10px #709F2F;
+	text-shadow: 0 0 10px #709f2f;
+}
+
+.full-width .five-challenges .challenges-col-1 p {
+	margin-bottom: 2em;
+	line-height: 31px;
+	font-weight: bold;
+}
+
+.full-width .five-challenges .right-button a {
+	margin-bottom: 0; /* 1.231em */
+	margin-left: 1em;
+}
+
+.full-width.teaching-challenges .five-challenges {
+	clear:both;
+}
+
+.full-width.teaching-challenges .five-challenges .challenges-col-1 {
+	float:left;
+	width:60%;
+}
+
+.full-width.teaching-challenges .five-challenges .challenges-col-2 {
+	float:right;
+	width:36%;
+}
+
+.teaching-challenges .artlicle-list { margin-bottom: 30px; }
+.teaching-challenges .artlicle-list ul { margin: 0; padding: 0; list-style: none; }
+.teaching-challenges .artlicle-list ul li { clear: both; margin-bottom: 0.12em; }
+/*.teaching-challenges .artlicle-list .article-item { display: block; float: left; }*/
+.teaching-challenges .artlicle-list .article-item + .article-item { margin-left: 1%; }
+.teaching-challenges .artlicle-list .article-date { display: block; float: left; padding-top: 0.3em; min-width: 65px; font-style: italic; font-size: 0.82em; color: #6e6e6e; }
+.teaching-challenges .artlicle-list .article-date:after { content:": "; }
+.teaching-challenges .artlicle-list .article-name { /*color: #4f87c6;*/ }
+.teaching-challenges .artlicle-list .blog:before { display: inline; content: " on "; font-size: 0.8em; }
+.teaching-challenges .artlicle-list .blog { padding-top: 0.3em; color: #6e6e6e; font-size: 0.82em;  }
+
+/*** TRANSFORMING LANGUAGE EDUCATION *****/
+
+.landingPageTLE{
+width: 75.385em;
+}
+
+.landingPageTLE .yui3-u-1-3 {
+	width: 23.80952%;
+}
+
+.landingPageTLE .yui3-u-2-3 {
+	width: 76.19048%;
+}
+
+.landingPageTLE .box iframe {
+width: 694px;
+}
+
+.landingPageTLE h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.landingPageTLE h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.75em;
+	font-weight: normal;
+	color: #00A3A0;
+}
+
+.landingPageTLE h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	color: #333;
+	background-color: #fff;
+	border: none;
+	font-weight: normal;
+	padding: 0.308em 0.308em 0.308em 0;
+	margin-bottom: 0.5em;
+}
+
+
+.landingPageTLE .ui-accordion .ui-accordion-header {
+	font-weight: normal;
+	font-size: 1em;
+	border: none;
+}
+
+.landingPageTLE hr {
+	height: 1px;
+	border-top: 1px solid #9A8A57;
+}
+
+.event-type {
+	color: #5E4E1F;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+.event-presentations {
+    font-size: 1.1em;
+    font-weight: bold;
+	color: #222222;
+}
+
+.event-speaker {
+    font-weight: bold;
+    color: #555555;
+}
+
+.event-special {
+	color: #005D7C;
+}
+
+.presenter-img {
+	border: 1px solid #9A8A57;
+}
+
+/**** INTERNATIONAL ADMISSIONS EVENT ******/
+
+.ce-international-admissions .landingPage header {
+background-color: #801431;
+}
+
+.ce-international-admissions.twenty-fifteen .landingPage header {
+background-color: #004c76; /* 3399cc */
+}
+
+.ce-international-admissions.twenty-fifteen .box header h1 {
+	margin-bottom: 0;
+}
+
+.ce-international-admissions.twenty-fifteen .box header h2 {
+/*font-size: 1.846em;
+line-height: 1.231em;
+margin-bottom: 0.66685em;*/
+margin-bottom: 1.167em;
+font-size: 1.286em;
+font-weight: 300;
+line-height: 1.5em;
+}
+
+
+/**** CAMBRIDGE ENGLISH SCALE SCORE CONVERTER TOOL *****/
+
+.landingPageCESSC .mainContentsContainer {
+	overflow: visible !important;
+	overflow-x: visible !important;
+}
+
+
+/***WEBINARS***/
+
+.webinarsH2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	color: #75683B;
+}
+	
+/* Understanding CAE results*/
+	.understanding-cae-results table a {
+		word-break: normal;
+	}
+
+/* Removing the date from videos */
+/* 
+Author: Jonathan Williams 
+Date: 27/11/2013
+approver: ACS
+*/
+	p.video-date {
+	   display: none;
+	}
+	
+/*TYE*/
+.tye div.paragraph {
+		line-height: 60px;
+	}
+.questions-container{
+		padding:0 8px;
+	}
+
+	.questions-container p{
+		line-height: inherit;
+	}
+
+	.tye .progress, .testYourEnglish .progress{
+		width: 100%;
+		display: block;
+		height: 20px;
+		background: lightgrey;
+		bottom: 0;
+		position:absolute;
+	}
+
+	.tye .progress .bar, .testYourEnglish .progress .bar{
+		width: 1%;
+		display: block;
+		height: 100%;
+		background: grey;
+	}
+
+	.tye .error {
+		color: red;
+		display: none;
+	}
+
+	.questions-container .audio{
+		position: relative;
+	}
+
+	.question-content{
+		position: relative;
+		/*float: left;*/
+	}
+
+	
+.testYourEnglish div.paragraph, .testYourEnglish div.paragraph p {
+    line-height: 60px;
+	font-size: 1.1em;
+}
+
+.testYourEnglish.answers div.paragraph , .testYourEnglish.answers div.paragraph p{
+    line-height: 28px;
+}
+
+.testYourEnglish .icnFalse {
+    background: url('../Images/Esol/tye-cross.png') no-repeat right;
+    padding-right: 19px;
+}
+
+.testYourEnglish .icnTrue {
+    background: url('../Images/Esol/tye-tick.png') no-repeat right;
+    padding-right: 19px;
+}
+
+.testYourEnglish select {
+    display: none;
+}
+
+.testYourEnglish .question-number {
+    padding: 2px 25px 0 25px;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    border-top-right-radius: .3em;
+    border-top-left-radius: .3em;
+}
+
+.testYourEnglish .question-number span {
+    font-weight: bold;
+    line-height: 23px;
+    font-size: 15px;
+}
+
+.testYourEnglish .question-number:hover {
+    background: #d4d982;
+    cursor: pointer;
+}
+
+.testYourEnglish .question-number:hover {
+    background: none;
+    cursor: default;
+}
+
+.testYourEnglish .right-answer {
+    background: url('../Images/Esol/tye-tick.png') no-repeat right;
+    padding-right: 19px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: green;
+    margin-right: 5px;
+}
+
+.testYourEnglish .wrong-answer {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: red;
+    background: url('../Images/Esol/tye-cross.png') no-repeat right;
+    padding-right: 19px;
+    margin-right: 5px;
+}
+
+.testYourEnglish .example-answer{
+    font-size: 1.1em;
+    font-weight: bold;	
+    margin:0 5px;
+}
+
+.testYourEnglish .example-tag{
+	display:none;
+}
+
+.testYourEnglish .question-number.selected, .testYourEnglish .passage-question.example .question-number {
+    background: #d4d982;
+}
+
+.testYourEnglish .selected-example{
+	font-weight: bold;
+}
+
+.testYourEnglish span.example .selected-example:hover, .testYourEnglish span.example li.close:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.testYourEnglish span.example li:hover{
+	cursor:default;
+	text-decoration: none;
+}
+
+.testYourEnglish .passage-question {
+    position: relative;
+}
+
+.testYourEnglish .passage-question ul {
+    padding: 3px;
+    margin: 0;
+    background: #d4d982;
+    position: absolute;
+    border-radius: .3em;
+    top: -38px;
+    line-height: 25px;
+    display: none;
+    width: 500px;
+	z-index: 2;
+}
+
+.testYourEnglish .passage-question span.is-example {
+    padding: 4px 10px 3px 4px;
+    margin: 0;
+    background: #ebedc7;
+    position: absolute;
+    border-radius: .3em;
+    top: -38px;
+    line-height: 25px;
+    display: none;
+    width: auto;
+    z-index: 1;
+}
+.testYourEnglish li {
+    list-style-type: none;
+}
+
+.testYourEnglish li label {
+    font-weight: normal;
+}
+
+.testYourEnglish li p {
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-top: 5px;
+}
+
+.testYourEnglish .passage-question li {
+    display: inline-block;
+    padding: 0 7px;
+}
+
+.testYourEnglish .passage-question li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.testYourEnglish .passage-question li.close {
+    background: url('../Images/Esol/delete-icon.png') no-repeat 5px;
+    width: 16px;
+}
+
+.testYourEnglish .passage-question li.close:hover {
+    text-decoration: none;
+}
+
+.testYourEnglish .error {
+    color: red;
+    display: none;
+}
+
+.testYourEnglish.answers .question-number {
+    padding: 0;
+    border: 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-left: 5px;
+}
+
+.testYourEnglish.answers label.correct,.testYourEnglish.answers label.incorrect {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.testYourEnglish.answers label.correct {
+    color: red;
+}
+
+.testYourEnglish.answers label.incorrect {
+    color: green;
+}
+
+.testYourEnglish .tye-intro {
+    border: 1px solid #000;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+/*
+		Standard With Images
+*/
+
+	.standard-with-images ul{
+		margin: 0;
+		padding: 0;
+	}
+
+	.standard-with-images ul li{
+		display: inline-block;
+		list-style-type: none;
+		margin: 10px 0px 10px 16px;
+	}
+	.standard-with-images ul li:first-child{
+		margin-left: 0;
+	}
+
+/*
+	.standard-with-images ul li:last-child{
+		margin-right:0;
+	}
+*/
+	.standard-with-images ul li img{
+		width : 110px;
+		height : 110px;
+	}
+
+	.standard-with-images ul li img{
+		padding: 4px 4px 25px 4px;
+		background: grey url('../Images/Esol/checkbox.png') no-repeat 95px 118px;
+		border:0;
+	}
+
+	.standard-with-images ul.answer li img{
+		background-image:none;
+	}
+
+	.standard-with-images ul li.selected img{
+		background-color: orange;
+		background-image: url('../Images/Esol/checkbox-yes.png');
+	}
+	
+	.standard-with-images ul li.yes img{
+		background-color: green;
+		background-image: url('../Images/Esol/checkbox-yes.png');
+	}
+	
+	.standard-with-images ul li.no img{
+		background-color: red;
+		background-image: url('../Images/Esol/checkbox-no.png');
+	}
+	.standard-with-images ul li a{	
+		display: block;
+	}
+/*
+	.standard-with-images .audio{
+		position: relative;
+	}
+*/
+/*
+		Multiple Matching
+*/
+	.multiple-matching {
+		position: relative;
+	}
+	.multiple-matching ul, .multiple-matching ol{
+		padding-left: 23px;
+		margin-left: 0px;
+	}
+
+	.multiple-matching ul li{
+		display: inline-block;
+		list-style-type: none;
+	}	
+	
+	.multiple-matching ol li{
+		margin-bottom: 15px;
+		list-style-type: decimal;
+	}
+
+	.multiple-matching ul li img, .multiple-matching ol li img{
+		width: 25px;
+	}
+
+	.multiple-matching ul li .who-picture, .multiple-matching ol li .who-picture{
+		padding-right: 5px;
+	
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.multiple-matching .who{
+		width: 75px;
+		vertical-align: top;
+		display: inline-block;
+		font-weight: 600;
+	}
+
+	.multiple-matching .q, .multiple-matching .a{
+		width: 250px;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.multiple-matching .q{
+		
+
+	}
+
+	.multiple-matching .a{
+		border: white solid 1px;
+		border-bottom: grey solid 1px;
+		height: auto;
+		min-height: 25px;
+	}
+
+	.multiple-matching .a.state-active{
+		border: #E8BE48 solid 1px;
+		background: #E8BE48;
+	}
+	.multiple-matching .a.state-hover{
+		border: #E8BE48 solid 1px;
+		background: white;
+	}
+	.multiple-matching ul li div, .multiple-matching ol li div{
+		margin-bottom: 10px;
+		width: 100%;
+		position: relative;
+	}
+
+	.multiple-matching ul li div:last-child, .multiple-matching ol li div:last-child{
+		margin-bottom: 0;
+	}
+
+	.multiple-matching .questions{
+		position: relative;
+	}
+
+	.multiple-matching .questions, .multiple-matching .questions li{
+		width:100%;
+	
+		margin-bottom: 15px;
+}
+		
+	.multiple-matching .questions h2{
+		margin-left: -23px;
+	}
+
+	.multiple-matching .questions .a.yes{
+		color:green;
+		background: transparent url('../Images/Esol/tye-tick.png') no-repeat top right;
+		padding-right: 20px;
+		font-weight: 600;
+		width:230px;
+		border: 0;
+		margin-right: 20px;
+
+	}
+
+	.multiple-matching .questions .a.no{
+		color:red;
+		background: transparent url('../Images/Esol/tye-cross.png') no-repeat top right;
+		padding-right: 20px;
+		font-weight: 600;
+		width:200px;
+		border: 0;
+	}
+
+	.multiple-matching .answers{
+		display:none;
+		border: lightgrey solid 2px;
+		padding: 0 4px;
+		position: absolute;
+		right:8px;
+	}
+
+	.multiple-matching .answers h2{
+		margin-top: 5px;
+	}
+
+	.multiple-matching .answers ol li, .label-drag-and-drop .answers ul li{
+		list-style-type:none;
+		width:250px;	
+		min-height: 25px;
+		border: grey solid 1px;
+		background: #E8BE48;
+	}
+	.multiple-matching .answers ol li.dragging.dropped, .multiple-matching .answers ol li.ui-draggable-dragging, .multiple-matching .answers ol li.dragging.example, .multiple-matching .answers ol li.draggable.in-animation{
+		border: #E8BE48 solid 1px;
+	}
+
+	.multiple-matching .answers ol {
+	    padding-left: 0;
+	}
+
+	.multiple-matching .answers span {
+	    /*background: #E8BE48;*/
+	    color: black;
+	    display: block;
+	    padding: 3px;
+	    /*border: lightgrey solid 1px;*/
+	    text-decoration: none;
+	}
+
+/*
+		Label Drag and Drop
+*/
+	.label-drag-and-drop {
+		position: relative;
+	}
+
+	.label-drag-and-drop .questions{
+		/*float: left;*/
+		position: relative;
+	}
+
+	.label-drag-and-drop .questions ul{
+		padding:0;
+		margin:0;
+		display: block;
+	
+		position: relative;
+}
+
+	.label-drag-and-drop .questions ul li{
+		list-style-type:none;
+		display: inline-block;
+		width: 470px;
+		height: 170px;
+		/*float: left;*/
+		margin-bottom: 15px;
+		position: relative;
+		/*left:0;*/
+	}
+
+	.label-drag-and-drop .questions ul{
+		/*float: left;*/
+	}
+
+	.label-drag-and-drop .questions ul li:nth-child(even),
+	.label-drag-and-drop .questions ul li.even,
+	.label-drag-and-drop .questions ul li:nth-child(even) .drop,
+	.label-drag-and-drop .questions ul li.even .drop{
+		/*text-align: right; */
+		right: 0px;
+	}
+
+	.label-drag-and-drop .questions ul li .drop{
+		border:white solid 1px;
+
+		display: block;
+		width: 168px;
+		height: 168px;
+		position: absolute;
+}
+
+	.label-drag-and-drop .answers {
+		position: absolute;
+	}
+
+	.label-drag-and-drop .answers ul{
+		clear: both;
+		padding: 0;
+	}
+
+	.label-drag-and-drop .answers ul li{
+		list-style-type:none;
+		width:168px;
+		min-height: 25px;
+		border: grey solid 1px;
+		background: #E8BE48;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.label-drag-and-drop .answers a, .label-drag-and-drop .answers span  {
+	    /*background: #E8BE48;*/
+	    color: black;
+	    display: block;
+	    padding: 3px;
+	    /*border: lightgrey solid 1px;*/
+	    text-decoration: none;
+	    vertical-align: middle;
+	}
+
+	.label-drag-and-drop ul li .drop.state-active{
+		border: #E8BE48 solid 1px;
+		background: #E8BE48;
+	}
+
+	.label-drag-and-drop ul li .drop.state-hover{
+		border: #E8BE48 solid 1px;
+		background: white;
+	}
+	.label-drag-and-drop ul li img{
+		width:168px;
+	}
+
+	.label-drag-and-drop ul li.dragging.dropped, .label-drag-and-drop ul li.ui-draggable-dragging, .label-drag-and-drop ul li.dragging.example, .label-drag-and-drop ul li.draggable.in-animation{
+		border: #E8BE48 solid 1px;
+	}
+
+	.label-drag-and-drop ul li.dropped{
+		border: white solid 1px;
+	}
+
+	.label-drag-and-drop .questions .drop .answer-wrapper{
+		display: block;
+		position: absolute;
+		bottom: 0;
+	}
+
+	.label-drag-and-drop .questions .drop .yes{
+		color:green;
+		background: white url('../Images/Esol/tye-tick.png') no-repeat 148px 4px;
+		background: rgba(255, 255, 255, 0.8) url('../Images/Esol/tye-tick.png') no-repeat 148px 4px;
+		padding:3px 20px 3px 3px;
+		font-weight: 600;
+		width:160px;
+		border: 0;
+		/* margin-right: 20px; */
+		width: 148px;
+
+		/*min-height: 30px;*/
+		/* padding: 3px; */
+	
+		display: block;
+}
+
+	.label-drag-and-drop .questions .drop .no{
+		color:red;
+		background: white url('../Images/Esol/tye-cross.png') no-repeat 148px 4px;
+		background: rgba(255, 255, 255, 0.8) url('../Images/Esol/tye-cross.png') no-repeat 148px 4px;
+		padding:3px 20px 3px 3px;
+		font-weight: 600;
+		width: 148px;
+		/*min-height: 30px;*/
+		border: 0;
+	
+		display: block;
+}
+
+.dragging-active{
+	cursor: pointer;
+	opacity: 1;
+}
+
+.dragging-inactive{
+	opacity: .7;
+}	
+
+/* Test your English - YLE Test - Fix image widths on first page in IE8 only. Under instruction by Dan Sanders */
+/* Author: Jonathan Williams */
+/* Date: 25/06/2014 */
+.lte8 .standard-with-images ul li, 
+.lte8 .standard-with-images ul li a { display: inline; }
+.lte8 .standard-with-images ul li img { margin-bottom: 1.231em; }
+
+
+/* Test your English - YLE Test - Audio text is now part of the content */
+/* Author: Jonathan Williams */
+.audio-information{
+	display: none;
+}
+
+/* Test your English - YLE Test - Results pages */
+/* Author: Jonathan Williams */
+
+/* The monkey promo */
+.tye-young-learners .cp45Content2 {
+	padding: 0;
+	border-top: transparent;
+	background-color: transparent;
+}
+
+.tye-young-learners .well-done {
+	color: #0073c5;
+	border-bottom: none;
+	border-top: none;
+	background-color: transparent;
+	font-size: 2em;
+	margin-bottom: 0.25em;
+	padding-left: 0em;
+}
+
+.tye-young-learners span.score {
+	color: #0073c5;
+}
+
+
+/* Test your English - YLE Test - Show link to mobile version of YLE test on TyE landing page using CSS media queries */
+/* Author: Jonathan Williams */
+/* Date: 25/06/2014 */
+.mobile-link {display: none;}
+
+@media screen and (max-width: 734px){
+	.desktop-link {display: none;}
+	.mobile-link {display: inline;}
+	.landing-page.teaching-challenges .world-experts img { display: block; float: none !important; margin-right: auto; margin-bottom: 1em; margin-left: auto; width: auto !important; height: auto !important; max-width: 345px; }
+	.full-width.teaching-challenges .five-challenges .challenges-col-1,
+	.full-width.teaching-challenges .five-challenges .challenges-col-2 {float:none;width:auto;}
+}
+
+
+
+@media screen and (min-width: 670px){
+	.label-drag-and-drop .questions ul li {
+		width: 302px;
+	}
+}
+
+@media screen and (min-width: 880px){
+	.label-drag-and-drop .questions ul li {
+		width: 400px;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	.label-drag-and-drop .questions ul li {
+		width: 470px;
+	}
+}
+
+/* Additional styling for table borders */
+table.no-borders tbody tr td {
+	border: none;
+	background-color: #fff;
+}
+
+/* Additional styling for Newsletter promo button to add space at bottom */
+/* Date: 02/07/2014 */
+div.subscribe-button-inner {
+    margin-bottom: .616em !important;
+}
+
+/* Issue with bullet points with images */
+/* Date: 02/07/2014 */
+.list-float-fix {
+overflow: hidden;
+margin-left: 0;
+padding-left: 1.847em;
+}
+
+/* Deleted by DS 05/06/2015
+.mainContentsContainer { overflow-x: auto !important; }
+*/
+
+.bright-future-page .bg--image { 
+	/*background-color: red;*/
+	background-image: url(../images/esol/background-illustrations.png);
+	background-position: 52% 0;
+	background-repeat: no-repeat;
+	}
+	
+.bright-future-page .button-banner { 
+	background-color: #EDEDED;
+	padding: 15px;
+	margin-bottom: 30px;
+	}	
+
+.bright-future-page .button-banner.blue { 
+	background-color: #002B4A;
+	color: white;
+	}		
+	
+	
+.bright-future-page .button-banner p { 
+	margin-bottom: 0;
+	}
+
+.bright-future-page .button-banner .right-button {
+	float: right; /* DP 130415 */
+}
+
+.bright-future-page .button-banner .right-button a { 
+	display: block;
+	background-color: #0073C5;
+	margin: 0 0 5px 5px;
+	padding: 5px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	}
+	
+	
+.bright-future-page .four-column-teaser p {
+	width: 190px;
+	margin-right: 10px;
+	float: left;
+	background-color: #EDEDED;
+	padding: 20px;
+	min-height: 324px;
+	}
+	
+.bright-future-page .four-column-teaser p + p {
+	margin-left: 10px;
+}
+	
+.bright-future-page .four-column-teaser.tall p {
+	min-height: 360px;
+	}	
+	
+.bright-future-page .four-column-teaser p img {
+	display:block;
+	margin:auto;
+	}
+
+.bright-future-page .cm-form-div {
+	background-color: #002B4A;
+	color: white;
+	padding: 20px;
+	}
+
+.bright-future-page .center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	}	
+
+.bright-future-page .cm-form-div select {
+	width: 250px
+	}
+
+.grid_box .error {
+    display: none;
+}
+	
+/*.bright-future-page .four-column-teaser p ( background-color: #EDEDED; }
+.bright-future-page .four-column-teaser p img ( display:block; margin:auto; }*/
+
+
+.certificates-linkedin { }
+.certificates-linkedin .reasons-wrapper .reasons-img { display:block;width:400px;height:auto; }
+.certificates-linkedin .reasons-wrapper .reasons .reason-heading { margin-top:0;margin-bottom:0.63em;-webkit-margin-before:0em;-webkit-margin-after:0em;-webkit-margin-start:0px;-webkit-margin-end:0px;line-height:1.231em;color:#333;font-size:1.385em;font: 'Open Sans','arial','sans-serif';font-weight:600; }
+
+.certificates-linkedin .cola { float:left;margin-left:20px;width:400px; }
+.certificates-linkedin .colb { float:right;width:auto; }
+.certificates-linkedin .cola h3,
+.certificates-linkedin .colb h3 { padding:0;border-top:none;border-bottom:none;background:transparent;font-style:italic; }
+.certificates-linkedin h4 { clear:both;/*margin-top:30px;*/ }
+.certificates-linkedin .buttons { clear:both;height:35px; }
+.certificates-linkedin .buttons a { -webkit-transition: background .5s ease;-moz-transition: background .5s ease;transition: background .5s ease; }
+.certificates-linkedin .buttons a.linkedin-add-to-profile { display:block;float:left;margin:0;padding:0;width:153px;height:35px; }
+.certificates-linkedin .buttons a.find-out-more { display:block;float:left;margin:0;margin-left:5px;padding:4px 10px 6px;border-radius:4px;background-color:#333;line-height:25px;text-decoration:none;color:#fff; }
+.certificates-linkedin .buttons a.find-out-more:hover { background:#007f86;-webkit-box-shadow:0 0 3px #007f86;-moz-box-shadow:0 0 3px #007f86;box-shadow:0 0 3px #007f86; }
+
+.certificates-linkedin .buttons a.find-out-more.ket:hover { background:#408F9C;-webkit-box-shadow:0 0 3px #408F9C;-moz-box-shadow:0 0 3px #408F9C;box-shadow:0 0 3px #408F9C; }
+.certificates-linkedin .buttons a.find-out-more.pet:hover { background:#BB383E;-webkit-box-shadow:0 0 3px #BB383E;-moz-box-shadow:0 0 3px #BB383E;box-shadow:0 0 3px #BB383E; }
+.certificates-linkedin .buttons a.find-out-more.fce:hover { background:#90B126;-webkit-box-shadow:0 0 3px #90B126;-moz-box-shadow:0 0 3px #90B126;box-shadow:0 0 3px #90B126; }
+.certificates-linkedin .buttons a.find-out-more.cae:hover { background:#378BBA;-webkit-box-shadow:0 0 3px #378BBA;-moz-box-shadow:0 0 3px #378BBA;box-shadow:0 0 3px #378BBA; }
+.certificates-linkedin .buttons a.find-out-more.cpe:hover { background:#243378;-webkit-box-shadow:0 0 3px #243378;-moz-box-shadow:0 0 3px #243378;box-shadow:0 0 3px #243378; }
+.certificates-linkedin .buttons a.find-out-more.celta:hover { background:#45A5D7;-webkit-box-shadow:0 0 3px #45A5D7;-moz-box-shadow:0 0 3px #45A5D7;box-shadow:0 0 3px #45A5D7; }
+.certificates-linkedin .buttons a.find-out-more.delta:hover { background:#CB3E73;-webkit-box-shadow:0 0 3px #CB3E73;-moz-box-shadow:0 0 3px #CB3E73;box-shadow:0 0 3px #CB3E73; }
+.certificates-linkedin .buttons a.find-out-more.tkt:hover { background:#00B296;-webkit-box-shadow:0 0 3px #00B296;-moz-box-shadow:0 0 3px #00B296;box-shadow:0 0 3px #00B296; }
+.certificates-linkedin .buttons a.find-out-more.icelt:hover { background:#3EC1CF;-webkit-box-shadow:0 0 3px #3EC1CF;-moz-box-shadow:0 0 3px #3EC1CF;box-shadow:0 0 3px #3EC1CF; }
+
+.certificates-linkedin .buttons a.find-out-more.becpreliminary:hover { background:#B72837;-webkit-box-shadow:0 0 3px #B72837;-moz-box-shadow:0 0 3px #B72837;box-shadow:0 0 3px #B72837; }
+.certificates-linkedin .buttons a.find-out-more.becvantage:hover { background:#B72837;-webkit-box-shadow:0 0 3px #B72837;-moz-box-shadow:0 0 3px #B72837;box-shadow:0 0 3px #B72837; }
+.certificates-linkedin .buttons a.find-out-more.bechigher:hover { background:#B72837;-webkit-box-shadow:0 0 3px #B72837;-moz-box-shadow:0 0 3px #B72837;box-shadow:0 0 3px #B72837; }
+.certificates-linkedin .buttons a.find-out-more.bulats:hover { background:#003399;-webkit-box-shadow:0 0 3px #003399;-moz-box-shadow:0 0 3px #003399;box-shadow:0 0 3px #003399; }
+
+/* DP:07/07/16 */
+.grid_box .error {
+	display: none;
+}
+
+@media only screen {
+	.study-abroad blockquote,
+	.has-testimonial blockquote {
+		display: block;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 40px;
+		-webkit-margin-end: 40px;
+		margin-right: 1em;
+		margin-left: 1em;
+	}
+	.study-abroad blockquote p,
+	.has-testimonial blockquote p {
+		margin-bottom: 1.231em;
+		-webkit-margin-before: 1em;
+		-webkit-margin-after: 1em;
+		-webkit-margin-start: 0px;
+		-webkit-margin-end: 0px;
+	}
+	.study-abroad blockquote>p:first-child,
+	.has-testimonial blockquote>p:first-child {
+		position: relative;
+		padding: 0 .5em;
+		font-weight: 600;
+		font-style: italic;
+		font-size: 1.286em;
+	}
+	.study-abroad blockquote>p:first-child:before,
+	.study-abroad blockquote>p:first-child:after,
+	.has-testimonial blockquote>p:first-child:before,
+	.has-testimonial blockquote>p:first-child:after {
+		position: absolute;
+		font-size: 1.286em;
+		line-height: .75em;
+		color: #007f86;
+	}
+	.study-abroad blockquote>p:first-child:before,
+	.has-testimonial blockquote>p:first-child:before {
+		top: 0;
+		left: 0;
+		content: "\2018";
+	}
+	.study-abroad blockquote>p:first-child:after,
+	.has-testimonial blockquote>p:first-child:after {
+		content: "\2019";
+	}
+	.study-abroad cite,
+	.has-testimonial cite {
+		font-style: italic;
+		font-weight: inherit;
+	}
+	.study-abroad .has-img,
+	.has-testimonial .has-img {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 480px){
+	.certificates-linkedin .reasons-wrapper .reasons-img { width:auto; }
+}
+
+@media screen and (min-width: 481px){
+	.certificates-linkedin .cola,.certificates-linkedin .colb { margin-left:1%;width:47.5%; }
+}
+
+@media screen and (max-width: 734px){
+	.certificates-linkedin .cola,.certificates-linkedin .colb { float:none;margin-left:0;width:auto; }
+	.certificates-linkedin .cola { margin-bottom:1.231em; }
+}
+
+@media screen and (min-width: 735px){
+	.certificates-linkedin .cola,.certificates-linkedin .colb { margin-left:1%;width:47.5%; }
+	.study-abroad .testimonial .img-holder,.has-testimonial .testimonial .img-holder { float:right; padding-left:1.4em; }
+}
+
+@media screen and (max-width: 1020px){ /* 734 */
+	.certificates-linkedin .reasons-wrapper .reasons-img { margin-right: auto; margin-left: auto; }
+}
+
+@media screen and (min-width: 1021px){ /* 735 */
+	.certificates-linkedin .reasons-wrapper { clear:both;margin-bottom:1.231em; }
+	.certificates-linkedin .reasons-wrapper .reasons-img { float:left;margin-right:20px; }
+	.certificates-linkedin .reasons-wrapper .reasons { float:right;width:auto;max-width:540px; }
+	.certificates-linkedin .cola { margin-left:0;width:400px; }
+	.certificates-linkedin .colb { margin-left:0;width:540px; }
+}
+
+.virtually-anywhere .episodes .row { clear:both;margin-bottom: 1.231em; }
+.virtually-anywhere .episodes .row .link { position:relative;display:block;width:49%;float:left; }
+.virtually-anywhere .episodes .row .link + .link { float:right; }
+.virtually-anywhere .episodes .row .link img {   margin-bottom:0;width:100%;/*min-width:237px;*/max-width:470px;height:auto;}
+.virtually-anywhere p label { display:inline; }
+.virtually-anywhere .wufoo label.desc, 
+.virtually-anywhere .wufoo legend.desc,
+.virtually-anywhere .wufoo input.text, 
+.virtually-anywhere .wufoo textarea.textarea, 
+.virtually-anywhere .wufoo input.file { font-family: "Open Sans","arial","sans-serif" !important; }
+.virtually-anywhere .wufoo label.desc, 
+.virtually-anywhere .wufoo legend.desc { font-size: 100% !important; }
+
+@media screen and (max-width: 481px){
+	.virtually-anywhere .episodes { margin-bottom: 1.231em; }
+	.virtually-anywhere .episodes .row { margin-bottom: 0; }
+	.virtually-anywhere .episodes .row .link { width:100%;float:none;}
+	.virtually-anywhere .episodes .row .link img { margin-bottom:2.231em; }
+}
+
+.list-column { width: 100%; }
+.list-column.left,
+.list-column.right { float: none; }
+
+@media screen and (min-width: 735px){
+	.list-column { width: 48%; }
+	.list-column.left { float: left; }
+	.list-column.right { float: right; }
+}
+
+@media screen and (max-width: 734px){
+	.list-column.left ul { margin-bottom: 0; }
+}
+
+
+/* JAW - HE / FE Campaign Page CSS - START */
+#hefe_campaign {
+  background: #fff;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 21px;
+  line-height: 1.3125rem;
+  color: #333; }
+  @media (min-width: 48em) {
+    #hefe_campaign {
+      font-size: 16px;
+      font-size: 1rem;
+      line-height: 24px;
+      line-height: 1.5rem; } }
+  #hefe_campaign * {
+    -webkit-tap-highlight-color: transparent;
+    word-wrap: break-word;
+    -moz-box-sizing: border-box;
+         box-sizing: border-box; }
+  #hefe_campaign a {
+    color: #333; }
+  #hefe_campaign.hefe--iframe {
+    text-align: center;
+    background: transparent; }
+    #hefe_campaign.hefe--iframe .message--thanks {
+      padding: 0 20px;
+      padding: 0 1.25rem; }
+      @media (min-width: 48em) {
+        #hefe_campaign.hefe--iframe .message--thanks {
+          line-height: 36px;
+          line-height: 2.25rem; } }
+      #hefe_campaign.hefe--iframe .message--thanks h4 {
+        margin-bottom: 6px;
+        margin-bottom: 0.375rem; }
+      #hefe_campaign.hefe--iframe .message--thanks p {
+        margin-bottom: 6px;
+        margin-bottom: 0.375rem; }
+      @media (min-width: 48em) {
+        #hefe_campaign.hefe--iframe .message--thanks-alt {
+          text-align: right;
+          padding-right: 20px;
+          padding-right: 1.25rem; } }
+      #hefe_campaign.hefe--iframe .message--thanks-alt h4 {
+        margin-bottom: 6px;
+        margin-bottom: 0.375rem; }
+        @media (min-width: 48em) {
+          #hefe_campaign.hefe--iframe .message--thanks-alt h4 {
+            margin-bottom: 0;
+            font-size: 14px;
+            font-size: 0.875rem;
+            line-height: 18px;
+            line-height: 1.125rem; } }
+      #hefe_campaign.hefe--iframe .message--thanks-alt p {
+        margin-bottom: 6px;
+        margin-bottom: 0.375rem; }
+        @media (min-width: 48em) {
+          #hefe_campaign.hefe--iframe .message--thanks-alt p {
+            margin-bottom: 0;
+            font-size: 14px;
+            font-size: 0.875rem;
+            line-height: 18px;
+            line-height: 1.125rem; } }
+  #hefe_campaign.hefe--iframe-alt {
+    background: transparent; }
+    @media (min-width: 48em) {
+      .no-touchdevice #hefe_campaign.hefe--iframe-alt {
+        text-align: right; } }
+
+.landingPage-hefe .body {
+  padding: 0; }
+.landingPage-hefe .subHeader {
+  display: none; }
+.landingPage-hefe .breadcrumbs {
+  display: none; }
+
+#hefe_campaign h1, #hefe_campaign h2, #hefe_campaign h3, #hefe_campaign h4, #hefe_campaign h5, #hefe_campaign h6, #hefe_campaign .h1, #hefe_campaign .h2, #hefe_campaign .h3, #hefe_campaign .h4, #hefe_campaign .h5, #hefe_campaign .h6 {
+  margin: 0;
+  padding: 0; }
+  #hefe_campaign h1 a, #hefe_campaign h1 a:hover, #hefe_campaign h2 a, #hefe_campaign h2 a:hover, #hefe_campaign h3 a, #hefe_campaign h3 a:hover, #hefe_campaign h4 a, #hefe_campaign h4 a:hover, #hefe_campaign h5 a, #hefe_campaign h5 a:hover, #hefe_campaign h6 a, #hefe_campaign h6 a:hover, #hefe_campaign .h1 a, #hefe_campaign .h1 a:hover, #hefe_campaign .h2 a, #hefe_campaign .h2 a:hover, #hefe_campaign .h3 a, #hefe_campaign .h3 a:hover, #hefe_campaign .h4 a, #hefe_campaign .h4 a:hover, #hefe_campaign .h5 a, #hefe_campaign .h5 a:hover, #hefe_campaign .h6 a, #hefe_campaign .h6 a:hover {
+    text-decoration: none; }
+#hefe_campaign h1, #hefe_campaign .h1 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-bottom: 18px;
+  margin-bottom: 1.125rem; }
+  @media (min-width: 48em) {
+    #hefe_campaign h1, #hefe_campaign .h1 {
+      font-size: 42px;
+      font-size: 2.625rem;
+      line-height: 54px;
+      line-height: 3.375rem;
+      margin-bottom: 24px;
+      margin-bottom: 1.5rem; } }
+#hefe_campaign h2, #hefe_campaign .h2 {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-bottom: 18px;
+  margin-bottom: 1.125rem; }
+  @media (min-width: 48em) {
+    #hefe_campaign h2, #hefe_campaign .h2 {
+      font-size: 30px;
+      font-size: 1.875rem;
+      line-height: 42px;
+      line-height: 2.625rem;
+      margin-bottom: 18px;
+      margin-bottom: 1.125rem; } }
+#hefe_campaign h3, #hefe_campaign .h3 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem; }
+  @media (min-width: 48em) {
+    #hefe_campaign h3, #hefe_campaign .h3 {
+      font-size: 24px;
+      font-size: 1.5rem;
+      line-height: 30px;
+      line-height: 1.875rem;
+      margin-bottom: 18px;
+      margin-bottom: 1.125rem; } }
+#hefe_campaign h4, #hefe_campaign .h4 {
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 24px;
+  line-height: 1.5rem;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem; }
+#hefe_campaign h5, #hefe_campaign .h5 {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  margin-bottom: 12px;
+  margin-bottom: 0.75rem; }
+#hefe_campaign p {
+  margin-top: 0;
+  margin-bottom: 18px;
+  margin-bottom: 1.125rem; }
+#hefe_campaign .text--lead {
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 30px;
+  line-height: 1.875rem;
+  margin-bottom: 60px;
+  margin-bottom: 3.75rem; }
+#hefe_campaign .text--sm {
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem; }
+
+#hefe_campaign button {
+  -webkit-font-smoothing: inherit; }
+#hefe_campaign input::-moz-focus-inner, #hefe_campaign button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+@media (min-width: 48em) {
+  #hefe_campaign .form {
+    display: inline-block; } }
+#hefe_campaign .form__small-print {
+  padding: 12px 20px 0;
+  padding: 0.75rem 1.25rem 0;
+  font-size: 11px;
+  font-size: 0.6875rem;
+  line-height: 15px;
+  line-height: 0.9375rem;
+  color: #999;
+  margin: 0; }
+  @media (min-width: 48em) {
+    #hefe_campaign .form__small-print {
+      padding: 30px 20px 0;
+      padding: 1.875rem 1.25rem 0; } }
+#hefe_campaign .form--signup-alt label.error {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+#hefe_campaign .form-control {
+  margin: 0 15px 12px;
+  margin: 0 0.9375rem 0.75rem;
+  position: relative; }
+  @media (min-width: 48em) {
+    #hefe_campaign .form-control {
+      display: inline-block;
+      vertical-align: top;
+      margin: 0 3px;
+      margin: 0 0.1875rem; } }
+  @media (min-width: 62.5em) {
+    #hefe_campaign .form-control {
+      margin: 0 8px;
+      margin: 0 0.5rem; } }
+  #hefe_campaign .form-control label {
+    display: block;
+    margin: 0;
+    clear: both;
+    float: right;
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 12px;
+    line-height: 0.75rem;
+    max-width: 100%;
+    margin-top: 6px;
+    margin-top: 0.375rem; }
+    #hefe_campaign .form-control label:before {
+      content: " ";
+      display: block;
+      position: absolute;
+      top: 9px;
+      right: 9px;
+      width: 18px;
+      height: 18px;
+      font: 0/0 a;
+      color: transparent;
+      text-shadow: none;
+      background-color: transparent;
+      border: 0; }
+    #hefe_campaign .form-control label.error {
+      color: #c20000; }
+      #hefe_campaign .form-control label.error:before {
+        background-image: url("http://www.cambridgeenglish.cn/images/he-icon-warning.svg");
+        background-repeat: no-repeat; }
+  #hefe_campaign .form-control__input {
+    background: #E6E6E6;
+    border: 0;
+    box-shadow: none;
+    border-radius: 3px;
+    font-size: 14px;
+    font-size: 0.875rem;
+    padding: 6px 15px;
+    padding: 0.375rem 0.9375rem;
+    height: 36px;
+    height: 2.25rem;
+    width: 100%; }
+    @media (min-width: 48em) {
+      #hefe_campaign .form-control__input {
+        width: 180px;
+        width: 11.25rem;
+        float: left; } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .form-control__input {
+        width: 240px;
+        width: 15rem; } }
+    #hefe_campaign .form-control__input:focus {
+      box-shadow: none;
+      outline: none; }
+    #hefe_campaign .form-control__input--name {
+      padding-left: 35px;
+      padding-left: 2.1875rem;
+      background-image: url("http://www.cambridgeenglish.cn/images/he-icon-user.svg");
+      background-position: 10px 8px;
+      background-repeat: no-repeat; }
+      .lte8 #hefe_campaign .form-control__input--name {
+        background-image: url("http://www.cambridgeenglish.cn/images/he-icon-user.png"); }
+    #hefe_campaign .form-control__input--email {
+      padding-left: 35px;
+      padding-left: 2.1875rem;
+      background-image: url("http://www.cambridgeenglish.cn/images/he-icon-email.svg");
+      background-position: 10px 12px;
+      background-repeat: no-repeat; }
+      .lte8 #hefe_campaign .form-control__input--email {
+        background-image: url("http://www.cambridgeenglish.cn/images/he-icon-email.png"); }
+  #hefe_campaign .form-control__btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: top;
+    -ms-touch-action: manipulation;
+        touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    background-color: /*#c81f66*/ #4f87c6;
+    color: #fff;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 6px 15px;
+    padding: 0.375rem 0.9375rem;
+    font-size: 14px;
+    font-size: 0.875rem;
+    line-height: 22px;
+    line-height: 1.375rem;
+    border-radius: 3px; }
+    #hefe_campaign .form-control__btn--signup {
+      padding-left: 40px;
+      padding-left: 2.5rem;
+      background-image: url("http://www.cambridgeenglish.cn/images/he-icon-like.svg");
+      background-position: 15px 8px;
+      background-repeat: no-repeat; }
+      .lte8 #hefe_campaign .form-control__btn--signup {
+        background-image: url("http://www.cambridgeenglish.cn/images/he-icon-like.png"); }
+    #hefe_campaign .form-control__btn:focus {
+      box-shadow: none;
+      outline: none; }
+#hefe_campaign .form-message {
+  display: none; }
+#hefe_campaign .form--submitted .form-control {
+  display: none; }
+#hefe_campaign .form--submitted .form-message {
+  display: block; }
+#hefe_campaign .placeholdersjs {
+  color: #999; }
+#hefe_campaign .hide {
+  display: none; }
+
+#hefe_campaign .hero {
+  position: relative;
+  overflow: hidden; }
+  #hefe_campaign .hero:before {
+    content: "";
+    display: block;
+    padding-top: 73.4375%;
+    background-image: url(http://www.cambridgeenglish.cn/images/he-banner_smallscreen.jpg);
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+    @media (min-width: 48em) {
+      #hefe_campaign .hero:before {
+        padding-top: 46%;
+        background-image: url(http://www.cambridgeenglish.cn/images/he-banner_largescreen.jpg); } }
+    .lte8 #hefe_campaign .hero:before {
+      background-image: url(http://www.cambridgeenglish.cn/images/he-banner_ie8.jpg); }
+  #hefe_campaign .hero__intro {
+    text-align: center;
+    padding: 18px 15px 0;
+    padding: 1.125rem 0.9375rem 0;
+    margin: 0 auto; }
+    @media (min-width: 48em) {
+      #hefe_campaign .hero__intro {
+        max-width: 620px;
+        max-width: 38.75rem;
+        padding: 42px 0 12px;
+        padding: 2.625rem 0 0.75rem; } }
+  #hefe_campaign .hero__title {
+    color: #c81f66; }
+  #hefe_campaign .hero__signup {
+    padding: 0 0 18px;
+    padding: 0 0 1.125rem;
+    text-align: center; }
+    @media (min-width: 48em) {
+      #hefe_campaign .hero__signup {
+        padding: 0 0 48px;
+        padding: 0 0 3rem; } }
+    #hefe_campaign .hero__signup .hefe-wufoo-iframe {
+      width: 100%;
+      height: 140px;
+      height: 8.75rem; }
+      @media (min-width: 48em) {
+        #hefe_campaign .hero__signup .hefe-wufoo-iframe {
+          height: 40px;
+          height: 2.5rem; } }
+
+#hefe_campaign .section {
+  background-color: #FFF;
+  overflow: hidden;
+  position: relative; }
+  #hefe_campaign .section--reasons {
+    background-color: #19a0d8;
+    color: #fff; }
+    #hefe_campaign .section--reasons .section__inner {
+      text-align: center;
+      padding: 0 15px;
+      padding: 0 0.9375rem;
+      margin: 18px auto 0;
+      margin: 1.125rem auto 0;
+      overflow: hidden; }
+      @media (min-width: 48em) {
+        #hefe_campaign .section--reasons .section__inner {
+          max-width: 738px;
+          max-width: 46.125rem;
+          padding: 0;
+          margin: 42px auto 0;
+          margin: 2.625rem auto 0; } }
+      @media (min-width: 62.5em) {
+        #hefe_campaign .section--reasons .section__inner {
+          max-width: 780px;
+          max-width: 48.75rem; } }
+    #hefe_campaign .section--reasons .section__header {
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+      padding: 12px 15px;
+      padding: 0.75rem 0.9375rem; }
+      @media (min-width: 48em) {
+        #hefe_campaign .section--reasons .section__header {
+          padding: 18px 15px;
+          padding: 1.125rem 0.9375rem; } }
+    #hefe_campaign .section--reasons .section__title {
+      font-weight: 400;
+      margin: 0;
+      font-size: 18px;
+      font-size: 1.125rem;
+      line-height: 27px;
+      line-height: 1.6875rem; }
+      @media (min-width: 48em) {
+        #hefe_campaign .section--reasons .section__title {
+          font-size: 30px;
+          font-size: 1.875rem;
+          line-height: 42px;
+          line-height: 2.625rem;
+          margin-bottom: 18px;
+          margin-bottom: 1.125rem; } }
+  #hefe_campaign .section--why .section__intro {
+    padding: 30px 15px 0;
+    padding: 1.875rem 0.9375rem 0;
+    text-align: center; }
+    @media (min-width: 48em) {
+      #hefe_campaign .section--why .section__intro {
+        margin: 90px 0 90px 50px;
+        margin: 5.625rem 0 5.625rem 3.125rem;
+        width: 45%;
+        text-align: left;
+        padding: 0; } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .section--why .section__intro {
+        margin: 150px 0 150px 50px;
+        margin: 9.375rem 0 9.375rem 3.125rem;
+        margin-left: 110px;
+        margin-left: 6.875rem;
+        width: 33%; } }
+  #hefe_campaign .section--why .section__media {
+    margin: 0 -12% -60px -8%;
+    margin: 0 -12% -3.75rem -8%;
+    width: 120%; }
+    @media (min-width: 48em) {
+      #hefe_campaign .section--why .section__media {
+        position: absolute;
+        top: 52%;
+        right: -12%;
+        left: 55%;
+        margin: 0;
+        width: auto;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%); } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .section--why .section__media {
+        right: -3%;
+        left: auto; } }
+    .lte8 #hefe_campaign .section--why .section__media {
+      position: absolute;
+      top: -40px;
+      right: -3%;
+      left: 50%;
+      margin: 0;
+      width: auto; }
+    #hefe_campaign .section--why .section__media img {
+      width: 100%;
+      height: auto; }
+  #hefe_campaign .section--testimonial {
+    background-color: #c81f66;
+    background-image: url(http://www.cambridgeenglish.cn/images/he-bg-testimonial-ana.jpg);
+    background-position: 50% 20px;
+    background-repeat: no-repeat;
+    background-size: 70% auto;
+    color: #fff;
+    padding-top: 300px;
+    padding-top: 18.75rem; }
+    @media (min-width: 48em) {
+      #hefe_campaign .section--testimonial {
+        background-position: -30px 20px;
+        background-size: 50% auto;
+        padding: 0; } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .section--testimonial {
+        background-size: auto; } }
+  #hefe_campaign .section--testimonial-alt {
+    background-color: #c81f66;
+    background-image: url(http://www.cambridgeenglish.cn/images/he-bg-testimonial-ana_circle.jpg);
+    background-position: 50% 20px;
+    background-repeat: no-repeat;
+    background-size: 280px 280px;
+    color: #fff;
+    padding-top: 200px;
+    padding-top: 12.5rem; }
+    @media (min-width: 48em) {
+      #hefe_campaign .section--testimonial-alt {
+        background-position: -32% 50px;
+        background-size: 72% auto;
+        padding: 0; } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .section--testimonial-alt {
+        background-size: auto; } }
+  #hefe_campaign .section--where .section__intro {
+    padding: 30px 15px 0;
+    padding: 1.875rem 0.9375rem 0;
+    text-align: center; }
+    @media (min-width: 48em) {
+      #hefe_campaign .section--where .section__intro {
+        width: 50%;
+        text-align: left;
+        float: right;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        padding: 0 50px;
+        padding: 0 3.125rem; } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .section--where .section__intro {
+        padding: 0 100px 0 90px;
+        padding: 0 6.25rem 0 5.625rem; } }
+    .lte8 #hefe_campaign .section--where .section__intro {
+      top: 130px; }
+  @media (min-width: 48em) {
+    #hefe_campaign .section--about {
+      border-top: 1px solid #e6e6e6; } }
+  #hefe_campaign .section--about .section__intro {
+    padding: 30px 15px 12px;
+    padding: 1.875rem 0.9375rem 0.75rem;
+    text-align: center;
+    margin: 0 auto; }
+    @media (min-width: 48em) {
+      #hefe_campaign .section--about .section__intro {
+        max-width: 580px;
+        max-width: 36.25rem;
+        padding: 42px 0 30px;
+        padding: 2.625rem 0 1.875rem; } }
+  #hefe_campaign .section--video {
+    background: #000; }
+    #hefe_campaign .section--video .section-video {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      height: 0; }
+      #hefe_campaign .section--video .section-video__iframe {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%; }
+
+#hefe_campaign .image-grid {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden; }
+  @media (min-width: 48em) {
+    #hefe_campaign .image-grid {
+      width: 50%;
+      float: left; } }
+  #hefe_campaign .image-grid__item {
+    width: 50%;
+    float: left;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; }
+  #hefe_campaign .image-grid__image {
+    max-width: 100%;
+    display: block;
+    z-index: 1;
+    position: relative;
+    -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s; }
+  #hefe_campaign .image-grid__label {
+    position: absolute;
+    z-index: 2;
+    bottom: 12px;
+    left: 18px;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+            transition: transform 0.35s; }
+  #hefe_campaign .image-grid a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    position: relative; }
+    #hefe_campaign .image-grid a:before, #hefe_campaign .image-grid a:after {
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+              transition: opacity 0.35s, transform 0.35s;
+      position: absolute;
+      z-index: 2;
+      content: '';
+      opacity: 0; }
+    #hefe_campaign .image-grid a:before {
+      top: 15px;
+      right: 0;
+      bottom: 15px;
+      left: 0;
+      border-top: 3px solid #fff;
+      border-bottom: 3px solid #fff;
+      -webkit-transform: scale(0, 1);
+          -ms-transform: scale(0, 1);
+              transform: scale(0, 1);
+      -webkit-transform-origin: 0 0;
+          -ms-transform-origin: 0 0;
+              transform-origin: 0 0; }
+    #hefe_campaign .image-grid a:after {
+      top: 0;
+      right: 15px;
+      bottom: 0;
+      left: 15px;
+      border-right: 3px solid #fff;
+      border-left: 3px solid #fff;
+      -webkit-transform: scale(1, 0);
+          -ms-transform: scale(1, 0);
+              transform: scale(1, 0);
+      -webkit-transform-origin: 100% 0;
+          -ms-transform-origin: 100% 0;
+              transform-origin: 100% 0; }
+  #hefe_campaign .image-grid a:hover:before, #hefe_campaign .image-grid a:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1); }
+  #hefe_campaign .image-grid a:hover .image-grid__image {
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2); }
+  #hefe_campaign .image-grid a:hover .image-grid__label {
+    -webkit-transform: translateX(10px) translateY(-10px);
+        -ms-transform: translateX(10px) translateY(-10px);
+            transform: translateX(10px) translateY(-10px); }
+
+#hefe_campaign .reasons {
+  position: relative;
+  margin: 0 auto;
+  padding: 18px 0;
+  padding: 1.125rem 0;
+  list-style: none;
+  max-width: 320px;
+  max-width: 20rem; }
+  @media (min-width: 48em) {
+    #hefe_campaign .reasons {
+      padding: 42px 0;
+      padding: 2.625rem 0;
+      max-width: 620px;
+      max-width: 38.75rem; } }
+  #hefe_campaign .reasons:before {
+    content: "";
+    display: block;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -1px;
+    width: 2px; }
+  #hefe_campaign .reasons__reason {
+    counter-increment: reason;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: -50px;
+    margin-top: -3.125rem; }
+    @media (min-width: 48em) {
+      #hefe_campaign .reasons__reason {
+        margin-top: -90px;
+        margin-top: -5.625rem; } }
+    #hefe_campaign .reasons__reason:first-child, #hefe_campaign .reasons__reason.pie_first-child {
+      margin-top: 0; }
+      @media (min-width: 48em) {
+        #hefe_campaign .reasons__reason:first-child, #hefe_campaign .reasons__reason.pie_first-child {
+          margin-top: 0; } }
+    @media (min-width: 48em) {
+      .csstransitions #hefe_campaign .reasons__reason {
+        -webkit-transform: scale(0);
+            -ms-transform: scale(0);
+                transform: scale(0);
+        opacity: 0;
+        -webkit-transition: -webkit-transform 0.35s, opacity 0.35s;
+                transition: transform 0.35s, opacity 0.35s; } }
+    @media (min-width: 48em) {
+      .csstransitions #hefe_campaign .reasons__reason.in {
+        -webkit-transform: scale(1);
+            -ms-transform: scale(1);
+                transform: scale(1);
+        opacity: 1; } }
+    #hefe_campaign .reasons__reason:before {
+      content: "";
+      width: 18px;
+      height: 18px;
+      line-height: 18px;
+      background: #fff;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -9px 0 0 -9px;
+      background: #fff;
+      border-radius: 100%;
+      z-index: 2; }
+    #hefe_campaign .reasons__reason:after {
+      content: "";
+      display: block;
+      height: 2px;
+      position: absolute;
+      top: 50%;
+      margin-top: -1px;
+      background: #fff;
+      width: 20%;
+      right: 50%;
+      z-index: 1; }
+    #hefe_campaign .reasons__reason__inner {
+      width: 110px;
+      width: 6.875rem;
+      height: 110px;
+      height: 6.875rem;
+      background: #fff;
+      color: #19a0d8;
+      display: block;
+      border-radius: 100%;
+      position: relative;
+      float: left;
+      z-index: 2; }
+      @media (min-width: 48em) {
+        #hefe_campaign .reasons__reason__inner {
+          width: 220px;
+          width: 13.75rem;
+          height: 220px;
+          height: 13.75rem; } }
+      #hefe_campaign .reasons__reason__inner span {
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 0;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+        padding: 0 15px;
+        padding: 0 0.9375rem;
+        text-align: center;
+        font-size: 12px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        line-height: 18px;
+        line-height: 1.125rem;
+        z-index: 2; }
+        @media (min-width: 48em) {
+          #hefe_campaign .reasons__reason__inner span {
+            font-size: 22px;
+            font-size: 1.375rem;
+            line-height: 30px;
+            line-height: 1.875rem;
+            padding: 0 25px;
+            padding: 0 1.5625rem; } }
+        .lte8 #hefe_campaign .reasons__reason__inner span {
+          top: 80px; }
+    #hefe_campaign .reasons__reason.even:after {
+      left: 50%;
+      right: 0; }
+    #hefe_campaign .reasons__reason.even .reasons__reason__inner {
+      float: right; }
+
+#hefe_campaign .testimonial {
+  width: 280px;
+  width: 17.5rem;
+  height: 280px;
+  height: 17.5rem;
+  background-color: #fff;
+  color: #c81f66;
+  border-radius: 100%;
+  position: relative;
+  margin: 30px auto;
+  margin: 1.875rem auto;
+  font-size: 10px;
+  font-size: 0.625rem;
+  line-height: 15px;
+  line-height: 0.9375rem; }
+  @media (min-width: 48em) {
+    #hefe_campaign .testimonial {
+      width: 380px;
+      width: 23.75rem;
+      height: 380px;
+      height: 23.75rem;
+      font-size: 12px;
+      font-size: 0.75rem;
+      line-height: 22px;
+      line-height: 1.375rem;
+      float: right;
+      margin: 90px 30px 90px 0;
+      margin: 5.625rem 1.875rem 5.625rem 0; } }
+  @media (min-width: 62.5em) {
+    #hefe_campaign .testimonial {
+      width: 420px;
+      width: 26.25rem;
+      height: 420px;
+      height: 26.25rem;
+      font-size: 14px;
+      font-size: 0.875rem;
+      line-height: 22px;
+      line-height: 1.375rem;
+      margin: 90px 60px 90px 0;
+      margin: 5.625rem 3.75rem 5.625rem 0; } }
+  .lte8 #hefe_campaign .testimonial {
+    border-radius: 380px; }
+  #hefe_campaign .testimonial:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 65px;
+    background-color: #fff;
+    -webkit-transform: skew(-45deg) rotate(-15deg);
+        -ms-transform: skew(-45deg) rotate(-15deg);
+            transform: skew(-45deg) rotate(-15deg);
+    position: absolute;
+    top: 180px;
+    left: 30px;
+    z-index: 1; }
+    @media (min-width: 48em) {
+      #hefe_campaign .testimonial:before {
+        width: 140px;
+        height: 70px;
+        top: 260px;
+        left: 30px; } }
+    @media (min-width: 62.5em) {
+      #hefe_campaign .testimonial:before {
+        width: 160px;
+        height: 90px;
+        top: 280px;
+        left: 30px; } }
+    .lte8 #hefe_campaign .testimonial:before {
+      display: none; }
+  #hefe_campaign .testimonial__inner {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    margin: 0 47px;
+    margin: 0 2.9375rem;
+    z-index: 2; }
+    @media (min-width: 48em) {
+      #hefe_campaign .testimonial__inner {
+        margin: 0 65px;
+        margin: 0 4.0625rem; } }
+    .lte8 #hefe_campaign .testimonial__inner {
+      top: 100px; }
+  #hefe_campaign .testimonial__body {
+    padding: 9px 0;
+    padding: 0.5625rem 0;
+    border-top: 2px solid #c81f66;
+    border-bottom: 2px solid #c81f66;
+    margin-bottom: 9px;
+    margin-bottom: 0.5625rem; }
+    @media (min-width: 48em) {
+      #hefe_campaign .testimonial__body {
+        padding: 18px 0;
+        padding: 1.125rem 0; } }
+  #hefe_campaign .testimonial__author {
+    font-style: italic;
+    font-size: 10px;
+    font-size: 0.625rem;
+    line-height: 16px;
+    line-height: 1rem; }
+    @media (min-width: 48em) {
+      #hefe_campaign .testimonial__author {
+        font-size: 12px;
+        font-size: 0.75rem;
+        line-height: 18px;
+        line-height: 1.125rem; } }
+    @media (min-width: 48em) {
+      #hefe_campaign .testimonial__author {
+        font-size: 14px;
+        font-size: 0.875rem;
+        line-height: 22px;
+        line-height: 1.375rem; } }
+  #hefe_campaign .testimonial cite {
+    font-weight: 600; }
+  #hefe_campaign .testimonial p {
+    margin: 0; }
+  #hefe_campaign .testimonial p + p {
+    margin-top: 12px;
+    margin-top: 0.75rem; }
+    @media (min-width: 48em) {
+      #hefe_campaign .testimonial p + p {
+        margin-top: 18px;
+        margin-top: 1.125rem; } }
+#hefe_campaign .section--testimonial-alt .testimonial {
+  margin: 30px auto;
+  margin: 1.875rem auto; }
+  @media (min-width: 48em) {
+    #hefe_campaign .section--testimonial-alt .testimonial {
+      margin: 60px 30px 60px 0;
+      margin: 3.75rem 1.875rem 3.75rem 0; } }
+  @media (min-width: 62.5em) {
+    #hefe_campaign .section--testimonial-alt .testimonial {
+      margin: 90px 60px 90px 0;
+      margin: 5.625rem 3.75rem 5.625rem 0; } }
+
+#hefe_campaign .fixed-signup {
+  text-align: center;
+  border-top: 1px solid #e6e6e6; }
+  @media (min-width: 48em) {
+    .no-touchdevice #hefe_campaign .fixed-signup {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 99;
+      background: #fff;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      -webkit-transform: translateY(-101%);
+          -ms-transform: translateY(-101%);
+              transform: translateY(-101%);
+      -webkit-transition: -webkit-transform 0.35s;
+              transition: transform 0.35s;
+      text-align: left; }
+      .lte8 .no-touchdevice #hefe_campaign .fixed-signup {
+        top: -100px; } }
+  @media (min-width: 48em) {
+    .no-touchdevice #hefe_campaign .fixed-signup.in {
+      -webkit-transform: translateY(0);
+          -ms-transform: translateY(0);
+              transform: translateY(0); }
+      .lte8 .no-touchdevice #hefe_campaign .fixed-signup.in {
+        top: 0; } }
+  #hefe_campaign .fixed-signup__inner {
+    padding: 30px 0 18px;
+    padding: 1.875rem 0 1.125rem;
+    position: relative; }
+    @media (min-width: 48em) {
+      #hefe_campaign .fixed-signup__inner {
+        max-width: 1000px;
+        max-width: 62.5rem;
+        margin: 0 auto;
+        padding: 36px 0;
+        padding: 2.25rem 0; } }
+    @media (min-width: 48em) {
+      .no-touchdevice #hefe_campaign .fixed-signup__inner {
+        padding: 18px 15px;
+        padding: 1.125rem 0.9375rem; } }
+    @media (min-width: 62.5em) {
+      .no-touchdevice #hefe_campaign .fixed-signup__inner {
+        padding: 18px 0;
+        padding: 1.125rem 0; } }
+  #hefe_campaign .fixed-signup__title {
+    color: #c81f66;
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 30px;
+    line-height: 1.875rem;
+    position: relative;
+    z-index: 2; }
+    @media (min-width: 48em) {
+      .no-touchdevice #hefe_campaign .fixed-signup__title {
+        float: left;
+        margin: 0;
+        font-size: 20px;
+        font-size: 1.25rem; } }
+    @media (min-width: 62.5em) {
+      .no-touchdevice #hefe_campaign .fixed-signup__title {
+        font-size: 24px;
+        font-size: 1.5rem; } }
+  @media (min-width: 48em) {
+    .no-touchdevice #hefe_campaign .fixed-signup .form--signup {
+      float: right; } }
+  #hefe_campaign .fixed-signup .hefe-wufoo-iframe {
+    width: 100%; }
+    @media (min-width: 48em) {
+      .no-touchdevice #hefe_campaign .fixed-signup .hefe-wufoo-iframe {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 15px;
+        height: 40px;
+        height: 2.5rem; } }
+
+/* JAW - HE / FE Campaign Page CSS - END */
+
+/* Footer link defect temporary fix 08/09/2015 */
+
+.footer_container__list-item .link--external.header-tray_link { display: inline; }
+
+.english-fc .bg--image {
+	background-image: url(http://www.cambridgeenglish.cn/images/esol/background-illustration-shirts.png);
+	background-position: 52% 0;
+	background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 734px){
+	.english-fc .english-fc-col-a,
+	.english-fc .english-fc-col-b { float:none;width:100%; }
+}
+
+@media screen and (min-width: 735px){
+	.english-fc .english-fc-wrap { clear:both; }
+	.english-fc .english-fc-col-a { float:right;width:55%; }
+	.english-fc .english-fc-col-b { float:left;width:43%; }
+	.english-fc .english-fc-col-b .main-img { margin-right:5%;width:97%;max-width:407px;height:auto; }
+	.english-fc .english-fc-col-b a .store-btn { width: 47%; height: auto; margin-bottom: 12px; }
+	.english-fc .english-fc-col-b a + a { margin-left: 3%;}
+}
+
+
+
+	
+	
+.tye-row { margin-bottom: 20px; width:50%; float:left; }
+	.tye-row:after { display: block; clear: both; content:" "; }
+	.left { float: left; }
+	.right { float: right; }
+	.cehide { position: absolute; z-index: -1; top: -999999999px; left: -999999999px; width: auto; height: auto; } 
+	
+	
+	.tye-button { display: block; position: relative; padding: 10px 4px 10px 8px; width: 213px; height: 55px; color: #fff; text-decoration: none; background-repeat: no-repeat !important; background-position: top right; -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s; float:left;  margin-left:2%;}
+	
+	/* DP:07/07/16 */
+	.tye-button h2 { margin: 0; font-weight: bold; line-height: 18px; letter-spacing: -0.02em; font-size: 18px;  }
+	.tye-button p { margin: 10px 0 0 0; font-weight: 500; line-height: 10px; letter-spacing: -0.04em; font-size: 9px; }
+	.tye-button .cehide { position: absolute; z-index: -1; top: -999999999px; left: -999999999px; width: auto; height: auto; }
+	.tye-button.tye-general-english { background: no-repeat right bottom url(../Images/icon-tye-general-english-china.png) #014C76; background-size:auto; margin-left:0; }
+	.tye-button.tye-general-english:hover { background: no-repeat right bottom url(../Images/icon-tye-general-english-china.png) #065D8E; background-size:auto; }
+	.tye-button.tye-for-schools { background: no-repeat right bottom url(../Images/icon-tye-for-schools-china.png) #C91F66; background-size:auto; }
+	.tye-button.tye-for-schools:hover { background: no-repeat right bottom url(../Images/icon-tye-for-schools-china.png) #E02B76; background-size:auto; }
+	.tye-button.tye-business-english { background: no-repeat right bottom url(../Images/icon-tye-business-english-china.png) #00A5A1; background-size:auto; }
+	.tye-button.tye-business-english:hover { background: no-repeat right bottom url(../Images/icon-tye-business-english-china.png) #09C5C1; background-size:auto; }
+	.tye-button.tye-young-learners { background: no-repeat right bottom url(../Images/icon-tye-young-learners-china.png)  #009FD9; background-size:auto; }
+	.tye-button.tye-young-learners:hover { background: no-repeat right bottom url(../Images/icon-tye-young-learners-china.png) #33C1F5; background-size:auto; }
+	
+	html[lang='fr-FR'] .tye-button { height: 95px; }
+	html[lang='es-MX'] .tye-button { height: 65px; }
+	html[lang='zh-CN'] .tye-button h2 { line-height: 22px; }
+	
+	@media only screen and (max-width: 1015px){
+		
+		.wrapper{ width:94%; padding:0;}
+		 .tye-button {width:45%; float:left; padding:2.5% 2%; margin-bottom:1%; margin-left: 0;}
+	
+		 .tye-button.tye-general-english, .tye-button.tye-business-english  { margin-right:1%;}
+	}
+	
+	
+	@media only screen and (max-width: 480px){
+		
+		.wrapper{ width:94%; padding:0;}
+		 .tye-row {margin-bottom:0px;}
+		 .tye-button {width:96%; float:left; padding:2.5% 2%; margin-bottom: 10px; margin-left: 0;}
+		
+	}
+html[lang='zh-CN'] .blockquote_section .error{
+    display: none;
+}
+
+html[lang='el-GR'] #hefe_campaign .hero:before {
+    padding-top: 46%;
+    background-image: url(http://www.cambridgeenglish.cn/gr/images/he-banner_largescreen.jpg);
+}
+
+html[lang='ro-RO'] #hefe_campaign .hero:before {
+    padding-top: 46%;
+    background-image: url(http://www.cambridgeenglish.cn/ro/images/he-banner_largescreen.jpg);
+}
